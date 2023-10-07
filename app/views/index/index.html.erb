@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <header><%= stylesheet_link_tag 'index', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link href='https://fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic' rel='stylesheet' type='text/css'>
+  </header>
+
+  <body>
+    <div id='content'>
+        <div id='left-side'>
+            <div id="left-header">
+                <h1 class="logotype_-name">Artur VR <span class="purple">Sampaio</span>
+                </h1>
+                <h2 class="logotype_occupation">Developer</h2>
+            </div>
+
+            <div id='left-body'>
+                <div class="profile_frame">
+                    <img src="<%= asset_path('me.jpg') %>"
+                        width="100%"
+                        height="100%"
+                    >
+                </div>
+
+                <div>
+                    <h2>About me</h2>
+                    <p>Full Stack Developer with a background in Computing, with a strong focus on the backend. My passion for technology and innovation led me to dedicate more than 5 years of professional experience to web development. During that time, I have focused my efforts on improving backend skills to create robust and efficient solutions that boost application performance and functionality.</p>
+                </div>
+
+                <div>
+                    <h2>Contact details</h2>
+                    <p class="purple">Phone:</p>
+                    <p>+55 16 9 9619 4577</p>
+                    <p class="purple">Email:</p>
+                    <p>artur.vitorio@astisoftware.com.br</p>
+                </div>
+
+                <a href="mailto:artur.vitorio@astisoftware.com.br" class="send_message_button">
+                    Mail me <span class="fontawesome-double-angle-right"></span>
+                </a>
+
+                <div class="social_icons">
+                    <a href="https://twitter.com/ArturVRSampaio">
+                        <span class="entypo-twitter-circled"></span>
+                    </a>
+
+                    <a  href="https://www.linkedin.com/in/ArturVRSampaio/en">
+                        <span class="entypo-linkedin-circled"></span>
+                    </a>
+
+                    <a  href="https://github.com/arturVRSampaio/">
+                        <span class="entypo-github-circled"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+
+        <div id ='right-side'>
+
+            <%# <div id="right-header">
+                <a href="#">texts</a>
+            </div> %>
+
+        <div id='right-body'>
+            <div class="block">
+                <blockquote 
+                    cite="https://books.google.com.br/books?id=CFkwBQAAQBAJ&printsec=frontcover&dq=plato+republic&hl=en&sa=X&redir_esc=y#v=onepage&q=%22fighting%20a%20hard%20battle%22&f=false"
+                    class="profile_quote">
+                <p>"The beginning is the most important part of the work."</p>
+                <footer>Plato,</footer><cite>The Reoublic</cite>
+                </blockquote>
+            </div>
+
+            <div class="block">
+                <h2>My Journey</h2>
+                <p>Hi, i am Artur and i like computers. 🖥️</p>
+                <p>
+                    Ever since I can remember, I've been captivated by the world of technology and the boundless possibilities it offers. <br> 
+                    From tinkering with my first computer to exploring the endless realms of software development, my journey has been a thrilling adventure.</p>
+                </p>
+                <p>
+                    I find joy in diving into the intricacies of computer science, solving puzzles through coding, and embracing the ever-evolving digital landscape.<br> 
+                    Whether it's mastering programming languages, building innovative applications, or staying up-to-date with the latest tech trends, I'm always eager to explore and learn more.
+                </p>
+                <p>
+                    My passion for technology led me to pursue a degree in Computer Science, and I'm proud to say that I'm a graduate in this field.<br>
+                    But my journey doesn't stop there. I'm currently pursuing an MBA in Artificial Intelligence and Big Data, where I'm delving even deeper into the world of cutting-edge technology and data-driven insights. This academic pursuit fuels my desire to make meaningful contributions to the ever-expanding realm of computer science.
+                </p>
+            </div>
+
+            <div class="last block">
+                <h2>Interests & Hobbies</h2>
+                <ul>
+                    <li>Gamming</li>
+                    <li>PC Building</li>
+                    <li>Computer Science Related Topics</li>
+                    <li>Puzzles</li>
+                    <li>Firearms</li>
+                    <li>Cyber security</li>
+                    <li>Artificial intelligence</li>
+                </ul>
+            </div>
+
+        </div>
+        </div>
+
+    </div>
+    
+    <footer id='footer'>
+      <p class="footer_name">Artur V R Sampaio</p>
+    </footer>
+  </body>
+
+</html>
